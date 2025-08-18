@@ -2,6 +2,7 @@ import express from 'express';
 import { Request, Response} from 'express';
 import validationBr, { isCPF } from "validation-br";
 import cep from "cep-promise";
+import z from "zod"; 
 
 const app = express();
 const port: number = 3000;
